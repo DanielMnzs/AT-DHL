@@ -1,0 +1,24 @@
+/* ─────────────────────────────────────────────────────────────────────────────
+   app/page.module.css — Estilos da página de Listagem de Produtos
+   TODO: Implemente os estilos da sua listagem aqui.
+───────────────────────────────────────────────────────────────────────────── */
+
+.container {
+  /* TODO: layout do container principal */
+}
+
+.title {
+  /* TODO: estilo do título da página */
+}
+
+.grid {
+  /* TODO: grid ou layout dos cards de produto */
+}
+
+.loading {
+  /* TODO: estilo do loading state */
+}
+
+.error {
+  /* TODO: estilo da mensagem de erro */
+}

@@ -1,0 +1,36 @@
+/* ─────────────────────────────────────────────────────────────────────────────
+   components/ProductDetail.module.css — Estilos do detalhe do produto
+   TODO: Implemente os estilos do detalhe aqui.
+───────────────────────────────────────────────────────────────────────────── */
+
+.container {
+  /* TODO: layout principal do detalhe */
+}
+
+.image {
+  /* TODO: imagem do produto */
+}
+
+.info {
+  /* TODO: bloco de informações */
+}
+
+.name {
+  /* TODO: nome do produto */
+}
+
+.price {
+  /* TODO: preço em destaque */
+}
+
+.description {
+  /* TODO: texto de descrição */
+}
+
+.specs {
+  /* TODO: tabela / lista de especificações */
+}
+
+.specRow {
+  /* TODO: linha individual de spec */
+}

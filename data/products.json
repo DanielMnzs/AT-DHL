@@ -1,0 +1,204 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Notebook UltraBook Pro 15",
+      "brand": "TechMart",
+      "category": "Notebooks",
+      "price": 4599.90,
+      "stock": 12,
+      "rating": 4.7,
+      "image_url": "https://picsum.photos/seed/nb1/400/300",
+      "description": "Notebook leve e poderoso com processador Intel Core i7 12a geração, 16GB RAM DDR5, SSD 512GB NVMe e tela Full HD de 15.6 polegadas. Ideal para trabalho e desenvolvimento.",
+      "available": true,
+      "specs": {
+        "processor": "Intel Core i7-1260P",
+        "ram": "16GB DDR5",
+        "storage": "512GB SSD NVMe",
+        "display": "15.6\" Full HD 144Hz",
+        "battery": "72Wh — até 10h",
+        "weight": "1.6 kg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Notebook Gamer ProX 17",
+      "brand": "VortexTech",
+      "category": "Notebooks",
+      "price": 7899.00,
+      "stock": 5,
+      "rating": 4.5,
+      "image_url": "https://picsum.photos/seed/nb2/400/300",
+      "description": "Notebook gamer de alto desempenho com RTX 4060, processador Intel i9, 32GB RAM e tela de 17.3\" com 165Hz. Perfeito para jogos e edição de vídeo.",
+      "available": true,
+      "specs": {
+        "processor": "Intel Core i9-13900H",
+        "ram": "32GB DDR5",
+        "storage": "1TB SSD NVMe",
+        "display": "17.3\" Full HD 165Hz",
+        "gpu": "NVIDIA RTX 4060 8GB",
+        "weight": "2.8 kg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Smartphone Pixel X12",
+      "brand": "TechMart",
+      "category": "Smartphones",
+      "price": 2299.90,
+      "stock": 30,
+      "rating": 4.6,
+      "image_url": "https://picsum.photos/seed/sm1/400/300",
+      "description": "Smartphone com câmera de 108MP, bateria de 5000mAh, tela AMOLED de 6.5\" e carregamento rápido de 67W. Processador Snapdragon 8 Gen 2.",
+      "available": true,
+      "specs": {
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "12GB",
+        "storage": "256GB",
+        "display": "6.5\" AMOLED 120Hz",
+        "camera": "108MP + 12MP + 5MP",
+        "battery": "5000mAh — 67W"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Smartphone ProMax Fold",
+      "brand": "FoldTech",
+      "category": "Smartphones",
+      "price": 8999.00,
+      "stock": 8,
+      "rating": 4.3,
+      "image_url": "https://picsum.photos/seed/sm2/400/300",
+      "description": "Smartphone dobrável com duas telas AMOLED — externa 6.2\" e interna 7.6\". Câmera tripla de 50MP, 12GB RAM e 512GB de armazenamento.",
+      "available": true,
+      "specs": {
+        "processor": "Snapdragon 8+ Gen 1",
+        "ram": "12GB",
+        "storage": "512GB",
+        "display": "6.2\" externo + 7.6\" interno",
+        "camera": "50MP + 12MP + 10MP",
+        "battery": "4400mAh — 25W"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Monitor UltraWide Curvo 34\"",
+      "brand": "ViewPro",
+      "category": "Monitores",
+      "price": 3199.00,
+      "stock": 7,
+      "rating": 4.8,
+      "image_url": "https://picsum.photos/seed/mon1/400/300",
+      "description": "Monitor curvo ultrawide 34\" com resolução UWQHD (3440x1440), painel IPS, 144Hz e tempo de resposta de 1ms. Perfeito para produtividade e jogos.",
+      "available": true,
+      "specs": {
+        "panel": "IPS Curvo",
+        "resolution": "3440x1440 UWQHD",
+        "refresh_rate": "144Hz",
+        "response_time": "1ms",
+        "ports": "2x HDMI, 1x DisplayPort, 4x USB-A",
+        "hdr": "HDR400"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Monitor 4K Design Pro 27\"",
+      "brand": "ColorMax",
+      "category": "Monitores",
+      "price": 2599.00,
+      "stock": 14,
+      "rating": 4.9,
+      "image_url": "https://picsum.photos/seed/mon2/400/300",
+      "description": "Monitor 4K 27\" com 100% sRGB e 98% DCI-P3, ideal para designers e editores. Painel IPS com 10 bits, calibrado de fábrica e suporte VESA.",
+      "available": true,
+      "specs": {
+        "panel": "IPS 10-bit",
+        "resolution": "3840x2160 UHD 4K",
+        "refresh_rate": "60Hz",
+        "color_gamut": "100% sRGB / 98% DCI-P3",
+        "ports": "2x HDMI 2.0, 1x DisplayPort 1.4, USB-C",
+        "calibration": "Calibrado de fábrica Delta-E < 2"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Teclado Mecânico RGB TactPro",
+      "brand": "KeyCraft",
+      "category": "Periféricos",
+      "price": 449.90,
+      "stock": 50,
+      "rating": 4.6,
+      "image_url": "https://picsum.photos/seed/per1/400/300",
+      "description": "Teclado mecânico compacto 80% com switches Red, iluminação RGB por tecla, construção em alumínio e conexão USB-C removível. Layout ABNT2.",
+      "available": true,
+      "specs": {
+        "switches": "Red Linear",
+        "layout": "80% TKL — ABNT2",
+        "backlight": "RGB por tecla",
+        "body": "Alumínio escovado",
+        "connection": "USB-C removível + Bluetooth 5.0",
+        "actuation": "2mm / 45g"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Mouse Gamer Precision X",
+      "brand": "TechMart",
+      "category": "Periféricos",
+      "price": 279.90,
+      "stock": 65,
+      "rating": 4.5,
+      "image_url": "https://picsum.photos/seed/per2/400/300",
+      "description": "Mouse gamer com sensor óptico de 25600 DPI, 7 botões programáveis, iluminação RGB e design ergonômico para uso prolongado.",
+      "available": true,
+      "specs": {
+        "sensor": "Óptico 25600 DPI",
+        "buttons": "7 programáveis",
+        "polling_rate": "1000Hz",
+        "backlight": "RGB 16.8M cores",
+        "connection": "USB 2.0",
+        "weight": "92g"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Headset SoundWave 7.1",
+      "brand": "AudioTech",
+      "category": "Periféricos",
+      "price": 389.00,
+      "stock": 28,
+      "rating": 4.4,
+      "image_url": "https://picsum.photos/seed/per3/400/300",
+      "description": "Headset surround virtual 7.1 com drivers de 50mm, microfone removível com cancelamento de ruído e almofadas em couro sintético respirável.",
+      "available": true,
+      "specs": {
+        "drivers": "50mm Neodímio",
+        "audio": "Surround Virtual 7.1",
+        "microphone": "Removível — Cancelamento de ruído",
+        "frequency": "20Hz – 20kHz",
+        "connection": "USB + P2 3.5mm",
+        "weight": "330g"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Webcam Full HD ProStream",
+      "brand": "StreamVision",
+      "category": "Periféricos",
+      "price": 319.00,
+      "stock": 0,
+      "rating": 4.2,
+      "image_url": "https://picsum.photos/seed/per4/400/300",
+      "description": "Webcam Full HD 1080p a 60fps com microfone duplo integrado, correção automática de iluminação e autofoco. Plug-and-play, sem necessidade de driver.",
+      "available": false,
+      "specs": {
+        "resolution": "1080p Full HD 60fps",
+        "microphone": "Duplo integrado — omnidirecional",
+        "autofocus": "Sim — Face Tracking",
+        "fov": "90°",
+        "connection": "USB-A 3.0",
+        "compatibility": "Windows, macOS, Linux"
+      }
+    }
+  ]
+}

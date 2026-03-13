@@ -1,0 +1,80 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   globals.css — Estilos base da aplicação TechMart
+   TODO: Personalize à vontade. Use este arquivo, CSS Modules nos componentes,
+   Tailwind, Styled Components — o que preferir.
+───────────────────────────────────────────────────────────────────────── */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f5f6fa;
+  color: #2c3e50;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ── Header ─────────────────────────────────────────────────────────────── */
+.site-header {
+  background-color: #1e3a5f;
+  color: #ffffff;
+  padding: 0 2rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.header-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.site-header nav a {
+  color: #a8c8e8;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.site-header nav a:hover {
+  color: #ffffff;
+}
+
+/* ── Main ────────────────────────────────────────────────────────────────── */
+.main-content {
+  flex: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* ── Footer ─────────────────────────────────────────────────────────────── */
+.site-footer {
+  background-color: #1e3a5f;
+  color: #7fa8c8;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+}

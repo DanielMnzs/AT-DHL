@@ -1,0 +1,32 @@
+/* ─────────────────────────────────────────────────────────────────────────────
+   components/ProductCard.module.css — Estilos do card de produto
+   TODO: Implemente os estilos do card aqui.
+───────────────────────────────────────────────────────────────────────────── */
+
+.card {
+  /* TODO: container do card */
+}
+
+.image {
+  /* TODO: imagem do produto */
+}
+
+.body {
+  /* TODO: área de conteúdo do card */
+}
+
+.name {
+  /* TODO: nome do produto */
+}
+
+.brand {
+  /* TODO: marca e categoria */
+}
+
+.price {
+  /* TODO: preço em destaque */
+}
+
+.badge {
+  /* TODO: badge de disponibilidade */
+}

@@ -5,20 +5,39 @@
 
 .container {
   /* TODO: layout do container principal */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
 }
 
 .title {
   /* TODO: estilo do título da página */
+  font-size: 1.8rem;
+  color: #1e3a5f;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .grid {
   /* TODO: grid ou layout dos cards de produto */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
 }
 
 .loading {
   /* TODO: estilo do loading state */
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.1rem;
+  color: #666;
 }
 
 .error {
   /* TODO: estilo da mensagem de erro */
+  text-align: center;
+  padding: 2rem;
+  color: #e74c3c;
+  background: #fadbd8;
+  border-radius: 8px;
 }

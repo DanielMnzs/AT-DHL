@@ -5,16 +5,34 @@
 
 .container {
   /* TODO: layout do container principal */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
 }
 
 .backLink {
-  /* TODO: estilo do link de voltar */
+  /* estilo do link de voltar */
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: #3498db;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.backLink:hover {
+  text-decoration: underline;
 }
 
 .loading {
   /* TODO: estilo do loading state */
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
 }
 
 .error {
   /* TODO: estilo da mensagem de erro / não encontrado */
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
 }

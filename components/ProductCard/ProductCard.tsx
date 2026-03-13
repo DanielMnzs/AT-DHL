@@ -44,20 +44,22 @@ export default function ProductCard({ product }: ProductCardProps) {
 
 
   return (
-    <div className={styles.card}>
-      {/* TODO */}
-      <img 
-        src={product.image_url} 
-        alt={product.name} 
-        className={styles.image} 
-      />
+    <a href={`/products/${product.id}`} className={styles.card}>
+      
+      <div className={styles.imageContainer}>
+        <img 
+          src={product.image_url} 
+          alt={product.name} 
+          className={styles.image} 
+        />
+      </div>
       
       <div className={styles.body}>
         <span className={styles.brand}>{product.brand}</span>
         <h3 className={styles.name}>{product.name}</h3>
         <p className={styles.price}>{formattedPrice}</p>
-        <a href={`/products/${product.id}`}>Ver Detalhes</a>
+
       </div>
-    </div>
+    </a>
   );
 }

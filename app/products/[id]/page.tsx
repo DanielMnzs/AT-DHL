@@ -16,7 +16,7 @@
 'use client';
 import { useState, useEffect } from 'react'; 
 import styles from './page.module.css';
-import ProductDetail from '../../../components/ProductDetail/ProductDetail';
+import ProductDetail from '@/components/ProductDetail/ProductDetail';
 
 export default function ProductPage({ params }: { params: { id: string } }) {
   // TODO: use params.id para buscar o produto correto

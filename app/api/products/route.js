@@ -15,4 +15,5 @@ import products from '@/data/products.json';
 
 export async function GET() {
   // TODO: retorne os produtos como JSON
+  return Response.json(products);
 }

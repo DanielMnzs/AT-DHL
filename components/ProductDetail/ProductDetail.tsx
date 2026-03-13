@@ -39,10 +39,35 @@ interface ProductDetailProps {
 
 export default function ProductDetail({ product }: ProductDetailProps) {
   // TODO: implemente o detalhe do produto
+  const formattedPrice = new Intl.NumberFormat('pt-BR', {
+    style: 'currency',
+    currency: 'BRL'
+  }).format(product.price);
+
 
   return (
     <div className={styles.container}>
       {/* TODO */}
+      <img src={product.image_url} alt={product.name} className={styles.image} />
+      
+      <div className={styles.info}>
+        <h1 className={styles.name}>{product.name}</h1>
+        <p>{product.brand} | {product.category}</p>
+        <h2 className={styles.price}>{formattedPrice}</h2>
+        <p className={styles.description}>{product.description}</p>
+        
+        <div className={styles.specs}>
+          <h3>Especificações Técnicas:</h3>
+          <ul>
+            {/* 💡 Só renderiza se tiver specs */}
+            {product.specs && Object.entries(product.specs).map(([key, value]) => (
+              <li key={key} className={styles.specRow}>
+                <strong>{key.toUpperCase()}:</strong> {value}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }

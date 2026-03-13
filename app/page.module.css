@@ -62,3 +62,67 @@
   color: #666;
   grid-column: 1 / -1;
 }
+
+.filtersPanel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+  align-items: flex-end;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1;
+  min-width: 150px;
+}
+
+.filterGroup label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #7f8c8d;
+  text-transform: uppercase;
+}
+
+.filterInput {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.filterInput:focus {
+  border-color: #3498db;
+}
+
+.checkboxGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: #2c3e50;
+  font-weight: 500;
+  cursor: pointer;
+  padding-bottom: 0.6rem;
+}
+
+.skeletonCard {
+  height: 320px;
+  background: #e0e0e0;
+  border-radius: 8px;
+  animation: pulse 1.5s infinite ease-in-out; 
+}
+
+@keyframes pulse {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}

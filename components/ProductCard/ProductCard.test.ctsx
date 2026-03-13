@@ -1,0 +1,33 @@
+import { render } from '@testing-library/react';
+import ProductCard from './ProductCard';
+
+const mockProduct = {
+  id: 99,
+  name: 'Monitor Super Teste 4K',
+  brand: 'TechMart',
+  category: 'Monitores',
+  price: 2500,
+  stock: 10,
+  rating: 5.0,
+  image_url: 'https://via.placeholder.com/150',
+  available: true
+};
+
+describe('Componente ProductCard', () => {
+  it('deve renderizar o nome do produto corretamente', () => {
+    const { getByText } = render(<ProductCard product={mockProduct} />);
+
+    const titleElement = getByText('Monitor Super Teste 4K');
+    
+    expect(titleElement).toBeInTheDocument();
+  });
+
+  it('deve formatar e renderizar o preço em Reais (R$)', () => {
+    const { getByText } = render(<ProductCard product={mockProduct} />);
+    
+    // 2500 deve virar R$ 2.500,00 no padrão brasileiro
+    const priceElement = getByText(/R\$\s*2\.500,00/i);
+    
+    expect(priceElement).toBeInTheDocument();
+  });
+});

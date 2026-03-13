@@ -18,4 +18,12 @@ import products from '@/data/products.json';
 
 export async function GET(request, { params }) {
   // TODO: encontre o produto pelo params.id e retorne a resposta correta
+  const { id } = params
+
+  const product = products.products.find((p) => p.id === Number(id));
+
+  if (!product) {
+    return Response.json({ error: "Produto não encontrado" }, { status: 404 });
+  }
+  return Response.json({ product });
 }

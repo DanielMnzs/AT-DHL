@@ -36,9 +36,28 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   // TODO: implemente o card do produto
 
+  const formattedPrice = new Intl.NumberFormat('pt-BR', {
+    style: 'currency',
+    currency: 'BRL',
+  }).format(product.price);
+
+
+
   return (
     <div className={styles.card}>
       {/* TODO */}
+      <img 
+        src={product.image_url} 
+        alt={product.name} 
+        className={styles.image} 
+      />
+      
+      <div className={styles.body}>
+        <span className={styles.brand}>{product.brand}</span>
+        <h3 className={styles.name}>{product.name}</h3>
+        <p className={styles.price}>{formattedPrice}</p>
+        <a href={`/products/${product.id}`}>Ver Detalhes</a>
+      </div>
     </div>
   );
 }
